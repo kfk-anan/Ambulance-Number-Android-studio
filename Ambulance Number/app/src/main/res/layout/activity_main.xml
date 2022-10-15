@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnHospital"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/login_button"
+        android:elevation="3dp"
+        android:text="Hospital List"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnCity"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:background="@drawable/login_button"
+        android:text="City"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:background="@drawable/login_button"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold" />
+
+</LinearLayout>
